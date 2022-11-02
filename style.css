@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.warp{
+  width: 500px;
+  height: auto;
+  
+  margin: 100px auto;
+}
+.warp .Add h1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.Add{
+  background-color: #ff3939;
+  width: 500px;
+  padding: 20px 0;
+  
+}
+.Add .box{
+  display: flex;
+  justify-content: center;
+}
+.Add:hover{
+  background-color: #ff0000;
+}
+.Add input{
+  width: 350px;
+  height: 35px;
+  outline: none;
+  text-indent: 1em;
+  font-size: 20px;
+  border: none;
+}
+.Add button{
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #b6b6b6;
+  margin-left: 10px;
+}
+.List ol {
+  display: flex;
+  flex-direction: column;
+}
+.List ol div{
+  background-color: #f9f9f9;
+  /* padding: 0 10px; */
+  display: flex;
+  justify-content: space-between;
+}
+.List ol div li{
+  flex: auto;
+  line-height: 30px;
+}
+.List ol div:hover{
+  background-color: #939393;
+  transition: .5s;
+}
+.List ol div span{
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+
+}
+.List ol div > span:last-child:hover{
+  cursor: pointer;
+  background-color: #ff0000;
+}
+
+
+.ture::before {
+  content: '✔';
+}
+.false::before {
+  content: ' ';
+}
